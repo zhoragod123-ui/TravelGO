@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.shapka{
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.logo-text{
+    display: flex;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.temniy{ color: #212121; }
+.oranj{ color: #ff9800; }
+
+.menu .punkt{
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #212121;
+    font-weight: 700;
+}
+
+.menu .punkt:last-child{
+    margin-right: 0; 
+}
+
+.menu .punkt:hover{
+    color: #ff9800;
+}
+
+.praviy-blok{ 
+    display: flex; 
+    align-items: center; 
+}
+
+.nomer-tel{
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.knopka-zakaz, .knopka-viboru{
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    background-color: #ff9800;
+    cursor: pointer;
+    transition: 0.3s; 
+}
+
+.knopka-zakaz{
+    width: 160px;
+    padding: 12px 0;
+}
+
+.knopka-viboru{
+    width: 220px;
+    padding: 18px 0;
+    font-size: 18px;
+}
+
+.knopka-zakaz:hover, .knopka-viboru:hover{
+    transform: scale(1.1); 
+}
+
+.glavniy-ekran{
+    width: 100%;
+    height: 865px;
+    padding: 180px 100px 0 100px;
+    box-sizing: border-box;
+    background: url("https://img1.akspic.ru/crops/9/9/5/7/97599/97599-reki_snejk-pejzazhi_gor-oblako-rassvet-nacionalnyj_park_denali_i_zapovedn-1920x1080.jpg") center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.titul{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    max-width: 600px; 
+    line-height: 1.1;
+}
+
+.podtitul{
+    font-size: 22px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    max-width: 500px;
+}
